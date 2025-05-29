@@ -105,7 +105,7 @@
             autoestima, dificuldades nos relacionamentos e tomadas de decisão</b>. Além de ajudar a
           superar desafios, oferece um espaço seguro para reflexão e crescimento pessoal,
           promovendo mudanças na forma como o indivíduo se relaciona consigo mesmo e com os
-          outros. Além disso, a psicoterapia também é oferecida a brasileiros no exterior,
+          outros. A psicoterapia também é oferecida a brasileiros no exterior,
           considerando os desafios da experiência migratória e da adaptação cultural.
         </p>
       </div>
