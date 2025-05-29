@@ -24,10 +24,10 @@
             </button>
             <a @click="showMenu = false" href="/#home"
                 class="block text-center mt-32 border-b-4 border-transparent hover:moni-brown">Home</a>
-            <a @click="showMenu = false" href="/#sobre"
-                class="block text-center border-b-4 border-transparent hover:moni-brown">Sobre</a>
             <a @click="showMenu = false" href="/#servicos"
                 class="block text-center border-b-4 border-transparent hover:moni-brown">Serviços</a>
+            <a @click="showMenu = false" href="/#sobre"
+                class="block text-center border-b-4 border-transparent hover:moni-brown">Sobre</a>
             <a @click="showMenu = false" href="/#faq"
                 class="block text-center border-b-4 border-transparent hover:moni-brown">Dúvidas</a>
             <a @click="showMenu = false" href="/#contato"
@@ -48,10 +48,10 @@
             <div :class="{ 'text-white [text-shadow:_0_2px_4px_black]': windowScroll <= 100 }">
                 <a href="/#home"
                     class="inline-block border-b-5 p-2 px-1 lg:p-4 lg:px-3 border-transparent hover:moni-brown">Home</a>
-                <a href="/#sobre"
-                    class="inline-block border-b-5 p-2 px-1 lg:p-4 lg:px-3 border-transparent hover:moni-brown">Sobre</a>
                 <a href="/#servicos"
                     class="inline-block border-b-5 p-2 px-1 lg:p-4 lg:px-3 border-transparent hover:moni-brown">Serviços</a>
+                <a href="/#sobre"
+                    class="inline-block border-b-5 p-2 px-1 lg:p-4 lg:px-3 border-transparent hover:moni-brown">Sobre</a>
                 <a href="/#faq"
                     class="inline-block border-b-5 p-2 px-1 lg:p-4 lg:px-3 border-transparent hover:moni-brown">Dúvidas</a>
                 <a href="/#contato"

@@ -1,6 +1,59 @@
 <template>
   <section id="servicos">
-    <div class="max-w-xl mx-auto text-center py-20 md:py-32">
+    <!-- Service Info Cards -->
+    <div class="bg-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div class="bg-gray-50 p-8 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow">
+            <div class="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-moni-red bg-opacity-10 mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-moni-grey" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <p class="text-gray-700 font-medium">Os atendimentos ocorrem uma vez por semana em um horário fixo</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-gray-50 p-8 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow">
+            <div class="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-moni-red bg-opacity-10 mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-moni-grey" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2" />
+              </svg>
+            </div>
+            <p class="text-gray-700 font-medium">A sessão é agendada previamente e tem duração de 50 minutos</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-gray-50 p-8 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow">
+            <div class="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-moni-red bg-opacity-10 mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 mt-1 h-8 w-8 text-moni-grey" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" style="transform: translate(1px, 1px);">
+                <!-- Larger laptop -->
+                <rect x="2" y="4" width="14" height="9" rx="1" stroke-width="1.5" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                  d="M1 13h16v1a2 2 0 01-2 2H3a2 2 0 01-2-2v-1z" />
+                <!-- Screen content -->
+                <path stroke-linecap="round" stroke-width="1" d="M4 7h10M4 9h8M4 11h6" />
+
+                <!-- Globe positioned to the side -->
+                <circle cx="18" cy="7.5" r="3" stroke-width="1.5" />
+                <path d="M18 4.5v6M15 7.5h6" stroke-width="1.2" />
+                <path d="M15.5 5.5c2 1 3 1 5 0M15.5 9.5c2-1 3-1 5 0" stroke-width="1" />
+              </svg>
+            </div>
+            <p class="text-gray-700 font-medium">Os atendimentos ocorrem via plataforma on-line de videochamada em
+              qualquer lugar do mundo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-100 mx-auto text-center py-10 md:py-20">
       <div class="w-24 h-2 bg-moni-red mb-4 mx-auto"></div>
       <h2 class="font-display font-semibold text-3xl md:text-4xl lg:text-5xl mb-0">Serviços</h2>
     </div>
@@ -42,22 +95,18 @@
       </div>
       <div class="bg-white p-12 md:p-24 flex justify-start">
         <p class="font-normal text-base md:text-[17px] text-gray-600 mb-6 leading-relaxed">
-          A <b>psicoterapia individual</b> na abordagem sistêmica tem como objetivo promover o
-          <b>autoconhecimento</b> e desenvolver
-          formas mais saudáveis de lidar com os desafios da vida. Por meio da identificação de padrões individuais e
-          relacionais, o processo terapêutico auxilia o cliente a construir estratégias mais eficazes para enfrentar
-          dificuldades emocionais, fortalecer seus vínculos interpessoais e melhorar sua qualidade de vida. A
-          abordagem considera a conexão do paciente com seus diferentes contextos, como família, amigos, trabalho e
-          estudos, explorando estes âmbitos para definir objetivos de mudança a partir de técnicas e estratégias
-          sistêmicas.
-          Essa modalidade de atendimento é indicada, por exemplo, para quem enfrenta questões como
-          <b>ansiedade,
-            estresse, dificuldades nos relacionamentos, luto, baixa autoestima e tomada de decisões
-            importantes.</b>
-          Além de ajudar a superar desafios, a terapia oferece um espaço seguro para reflexão e crescimento pessoal,
-          promovendo mudanças significativas na forma como o indivíduo se relaciona consigo mesmo e com os outros.
-          A psicoterapia também é oferecida para brasileiros que vivem no exterior, considerando os desafios
-          específicos da experiência migratória e as demandas de adaptação a novos contextos culturais.
+          A psicoterapia individual na abordagem sistêmica busca promover
+          <b>autoconhecimento</b> e desenvolver formas mais saudáveis de lidar com os desafios
+          da vida. O processo identifica padrões individuais e relacionais, ajudando o cliente a criar
+          estratégias para enfrentar dificuldades emocionais, fortalecer vínculos e melhorar a
+          qualidade de vida. A abordagem considera os diversos contextos do paciente — como
+          família, relacionamentos, trabalho e estudos — para definir objetivos de mudança a partir de
+          técnicas sistêmicas. É indicada para questões como <b>ansiedade, estresse, luto, baixa
+            autoestima, dificuldades nos relacionamentos e tomadas de decisão</b>. Além de ajudar a
+          superar desafios, oferece um espaço seguro para reflexão e crescimento pessoal,
+          promovendo mudanças na forma como o indivíduo se relaciona consigo mesmo e com os
+          outros. Além disso, a psicoterapia também é oferecida a brasileiros no exterior,
+          considerando os desafios da experiência migratória e da adaptação cultural.
         </p>
       </div>
     </div>
@@ -72,18 +121,15 @@
       </div>
       <div class="md:order-first bg-white p-12 md:p-24 flex justify-start">
         <p class="font-normal text-base md:text-[17px] text-gray-600 mb-6 leading-relaxed">
-          A <b>psicoterapia familiar sistêmica</b> tem como objetivo fortalecer os vínculos entre os membros
-          da família,
-          promovendo formas mais saudáveis de relacionamento e comunicação. Com todos os integrantes presentes nas
-          sessões, o processo terapêutico permite investigar padrões disfuncionais, compreender suas origens e
-          desenvolver estratégias conjuntas para lidar com os desafios identificados. Dessa forma, a terapia busca não
-          apenas solucionar conflitos, mas também criar um ambiente familiar mais harmonioso, acolhedor e funcional.
-          Essa abordagem é indicada para famílias que enfrentam dificuldades como <b>conflitos recorrentes,
-            distanciamento emocional, dificuldades na criação dos filhos, momentos de transição (como separações ou
-            mudanças significativas), adoecimento de um membro da família, entre outros desafios.</b> Ao
-          transformar a
-          maneira como os familiares se relacionam, a terapia contribui para um sistema familiar mais equilibrado e,
-          consequentemente, para o <b>bem-estar, autonomia e satisfação individual de cada membro.</b>
+          A <b>psicoterapia familiar sistêmica</b> tem como objetivo fortalecer os vínculos e
+          promover <b>relações mais saudáveis</b> entre os membros da família. Com todos os
+          integrantes nas sessões, é possível identificar padrões disfuncionais, compreender suas
+          origens e desenvolver estratégias conjuntas para lidar com os desafios. A terapia busca não
+          só resolver conflitos, mas também criar um ambiente familiar mais harmonioso e funcional.
+          É indicada para famílias com <b>conflitos recorrentes, distanciamento emocional,
+            dificuldades na criação dos filhos, transições (como separações), adoecimento de um
+            membro, entre outros</b>. Ao transformar as relações familiares, promove equilíbrio, bem-
+          estar e maior autonomia para cada integrante.
         </p>
       </div>
     </div>
@@ -98,22 +144,17 @@
       </div>
       <div class="bg-white p-12 md:p-24 flex justify-start">
         <p class="font-normal text-base md:text-[17px] text-gray-600 mb-6 leading-relaxed">
-          A <b>psicoterapia de casal sistêmica</b> é voltada para casais de qualquer configuração ou gênero, incluindo
-          casados, namorados, parceiros em união estável ou até mesmo divorciados que buscam melhorar sua dinâmica
-          relacional. O principal objetivo é favorecer o reconhecimento do papel e da responsabilidade de cada um na
-          relação, aprimorar a comunicação e fortalecer os laços afetivos. A terapia não busca definir culpados, mas
-          sim criar um espaço seguro para que ambos expressem suas percepções e construam juntos caminhos mais
-          saudáveis para a convivência.
-          O atendimento requer a <b>presença dos dois parceiros</b>, com sessões iniciais voltadas para a investigação
-          da
-          história do casal, suas vivências familiares e os desafios percebidos. A partir disso, são delineadas
-          estratégias de intervenção personalizadas. O paciente na terapia de casal é a <b>relação</b>, e não um
-          indivíduo
-          específico. Questões individuais podem ser consideradas, mas o foco do trabalho está nos aspectos
-          relacionais, como <b> comunicação, conexão emocional e dinâmica conjugal ou sexual</b>. Além disso, a
-          psicoterapia também atende casais formados por pessoas de diferentes nacionalidades, ajudando-os a lidar com
-          desafios como as diferenças culturais, de adaptação e de expectativas. Utilizando técnicas fundamentadas na
-          ciência psicológica, a terapia auxilia os casais a encontrarem formas mais felizes de viver juntos.
+          A <b>psicoterapia de casal sistêmica</b> é indicada para casais de qualquer configuração
+          ou gênero, incluindo casados, namorados, em união estável ou divorciados. O foco está em
+          melhorar a dinâmica relacional, fortalecendo a comunicação, o vínculo afetivo e o
+          reconhecimento das responsabilidades mútuas, sem buscar culpados. As sessões, com a
+          <b>presença dos dois parceiros</b>, começam com a compreensão da história do casal e
+
+          dos desafios enfrentados. A relação é o foco do atendimento, e não um indivíduo específico.
+          Questões como <b>comunicação, conexão emocional e dinâmica conjugal ou sexual</b>
+          são trabalhadas com base em técnicas fundamentadas na ciência psicológica, promovendo
+          convivências mais saudáveis e satisfatórias. A terapia também acolhe casais interculturais,
+          auxiliando-os a lidar com diferenças culturais, de adaptação e expectativas.
         </p>
       </div>
     </div>
@@ -129,18 +170,15 @@
       </div>
       <div class="md:order-first bg-white p-12 md:p-24 flex justify-start">
         <p class="font-normal text-base md:text-[17px] text-gray-600 mb-6 leading-relaxed">
-          A <b>supervisão clínica na abordagem sistêmica</b> é um processo essencial para o desenvolvimento
-          profissional de
-          psicólogos. Realizada em encontros pontuais ou sistemáticos, individuais ou em pequenos grupos, segue um
-          <b>Protocolo de Supervisão</b> que oferece suporte teórico, técnico e emocional. Seu objetivo é auxiliar os
-          terapeutas na aplicação dos conceitos sistêmicos, no aprimoramento de suas habilidades clínicas e na
-          construção da identidade profissional, promovendo uma <b>prática mais segura e eficaz</b>.
-          Além do aprofundamento teórico-prático, a supervisão cria um espaço de acolhimento e suporte, <b>prevenindo
-            o
-            desgaste emocional do terapeuta</b> e incentivando a troca de experiências entre os profissionais. Ao
-          proporcionar reflexão
-          sobre o self do terapeuta e discussões de casos clínicos desafiadores, esse processo fortalece a prática
-          clínica e contribui para um desenvolvimento contínuo na trajetória profissional do psicólogo.
+          A <b>supervisão clínica na abordagem sistêmica</b> é fundamental para o
+          desenvolvimento profissional de psicólogos. Pode ocorrer de forma pontual ou contínua,
+          individualmente ou em pequenos grupos, com base em um <b>Protocolo de
+            Supervisão</b> que oferece suporte teórico, técnico e emocional. Seu objetivo é apoiar o
+          uso dos conceitos sistêmicos, aprimorar habilidades clínicas e fortalecer a identidade
+          profissional, promovendo uma <b>prática mais segura e eficaz</b>. Além de aprofundar o
+          conhecimento teórico-prático, a supervisão oferece acolhimento, previne o desgaste
+          emocional e estimula a troca entre profissionais. Ao refletir sobre o self do terapeuta e
+          discutir casos desafiadores, contribui para o crescimento contínuo na clínica.
         </p>
       </div>
     </div>
@@ -156,15 +194,14 @@
       </div>
       <div class="bg-white p-12 md:p-24 flex justify-start">
         <p class="font-normal text-base md:text-[17px] text-gray-600 mb-6 leading-relaxed">
-          <b>Aulas, palestras e workshops</b> dinâmicos e interativos voltados à instituições de ensino e empresas,
-          abordando
-          temas essenciais como <b>Saúde Mental, Desenvolvimento Humano e Relações Familiares</b>. Utiliza-se
-          <b>metodologias ativas</b> para promover um aprendizado envolvente e transformador, incentivando a reflexão
-          e a aplicação prática dos conhecimentos no dia a dia.
-          Os encontros são personalizados conforme as necessidades do público, proporcionando um espaço de troca e
-          crescimento. Seja para capacitação profissional, bem-estar no ambiente de trabalho ou fortalecimento das
-          relações interpessoais, as iniciativas são pensadas para gerar impacto positivo e promover mudanças
-          significativas. Entre em contato e leve esse valioso conhecimento para sua equipe ou instituição!
+          Aulas, palestras e workshops dinâmicos e interativos voltados para instituições de ensino e
+          empresas, com temas como <b>Saúde Mental, Desenvolvimento Humano e Relações
+            Familiares</b>. Utilizando <b>metodologias ativas</b>, os encontros incentivam a reflexão
+          e a aplicação prática dos conteúdos no dia a dia. As atividades são personalizadas
+          conforme o público, promovendo troca, aprendizado e crescimento. Ideais para capacitação,
+          bem-estar no trabalho e fortalecimento das relações interpessoais, essas iniciativas visam
+          gerar impacto positivo e mudanças significativas. Entre em contato e leve esse valioso
+          conhecimento para sua equipe!
         </p>
       </div>
     </div>
